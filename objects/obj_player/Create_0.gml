@@ -29,8 +29,11 @@ caindo = function()
     //aplicando gravidade
     vspd = min(vspd + grav, max_vspd);
     
+    //pegando a instancia de cada plataforma
+    var _plat = instance_place(x, y, obj_plataformas);
+    
     //se tiver encostando na plataforma
-    if (place_meeting(x, y, obj_plataformas))
+    if (_plat)
     {
         //se tiver caindo
         if (vspd > 0)
@@ -38,6 +41,18 @@ caindo = function()
             //pula
             vspd = -max_vspd;
             toca_som(snd_jump, .5);
+            
+            //criando o puff
+            instance_create_layer(x, y, layer, obj_player_puff);
+            
+            //ativa o cair da plat folha
+            with (_plat) 
+            {
+            	if (object_index == obj_plat_folha)
+                {
+                    cai = true;
+                }
+            }
         }
     }
 }

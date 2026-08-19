@@ -18,7 +18,6 @@ gera_plataformas = function()
         if (_plat.object_index == obj_plat_movel)
         {
             _plat.direction = choose(0, 180);
-            show_debug_message(_plat.direction);
         }
         
         //subindo as plataformas

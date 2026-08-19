@@ -48,6 +48,7 @@
     {"id":{"name":"obj_plat_tronco","path":"objects/obj_plat_tronco/obj_plat_tronco.yy",},},
     {"id":{"name":"obj_plat_vert","path":"objects/obj_plat_vert/obj_plat_vert.yy",},},
     {"id":{"name":"obj_plataformas","path":"objects/obj_plataformas/obj_plataformas.yy",},},
+    {"id":{"name":"obj_player_puff","path":"objects/obj_player_puff/obj_player_puff.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
