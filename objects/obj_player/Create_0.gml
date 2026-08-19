@@ -1,16 +1,17 @@
-max_hspd = 1;
+max_hspd = 2;
 hspd = 0;
-max_vspd = 7;
+max_vspd = 8;
 vspd = 0;
 grav = .3;
 
-cam_y = y;
+cam_y = 170;
 
 controle_player = function()
 {
-    movimentacao();
     caindo();
+    movimentacao();
     camera_segue();
+    atravessa_parede();
 }
 
 movimentacao = function()
@@ -25,20 +26,19 @@ movimentacao = function()
 
 caindo = function()
 {
+    //aplicando gravidade
+    vspd = min(vspd + grav, max_vspd);
+    
     //se tiver encostando na plataforma
-    if (place_meeting(x, y, obj_plataforma))
+    if (place_meeting(x, y, obj_plataformas))
     {
         //se tiver caindo
         if (vspd > 0)
         {
             //pula
             vspd = -max_vspd;
+            toca_som(snd_jump, .5);
         }
-    }
-    //se tiver no ar, sofre gravidade
-    else
-    {
-        vspd = min(vspd + grav, max_vspd);
     }
 }
 
@@ -59,5 +59,20 @@ camera_segue = function()
     if (y > camera_get_view_y(_cam) + camera_get_view_height(_cam) + 10)
     {
         game_restart();
+    }
+}
+
+atravessa_parede = function()
+{
+    //esquerda
+    if (x < 0)
+    {
+        x = room_width;
+    }
+    
+    //direita
+    if (x > room_width)
+    {
+        x = 0;
     }
 }

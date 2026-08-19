@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_tamandua",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":17,
   "bbox_left":0,
   "bbox_right":17,
-  "bbox_top":0,
+  "bbox_top":16,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

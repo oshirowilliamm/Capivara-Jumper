@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spawner",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_plat_vert",
+  "eventList":[],
   "managed":true,
-  "name":"obj_spawner",
+  "name":"obj_plat_vert",
   "overriddenProperties":[],
   "parent":{
     "name":"plataformas",
     "path":"folders/Objects/plataformas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_plataformas",
+    "path":"objects/obj_plataformas/obj_plataformas.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_plat_vert",
+    "path":"sprites/spr_plat_vert/spr_plat_vert.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

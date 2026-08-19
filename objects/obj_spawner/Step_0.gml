@@ -1,1 +1,1 @@
-gerador();
+gera_plataformas();
