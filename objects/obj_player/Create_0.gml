@@ -1,4 +1,4 @@
-max_hspd = 2;
+max_hspd = 1;
 hspd = 0;
 max_vspd = 8;
 vspd = 0;

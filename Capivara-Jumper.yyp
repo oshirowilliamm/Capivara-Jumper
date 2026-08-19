@@ -41,12 +41,12 @@
   "name":"Capivara-Jumper",
   "resources":[
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
+    {"id":{"name":"obj_acai","path":"objects/obj_acai/obj_acai.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_plat_folha","path":"objects/obj_plat_folha/obj_plat_folha.yy",},},
     {"id":{"name":"obj_plat_grama","path":"objects/obj_plat_grama/obj_plat_grama.yy",},},
     {"id":{"name":"obj_plat_movel","path":"objects/obj_plat_movel/obj_plat_movel.yy",},},
     {"id":{"name":"obj_plat_tronco","path":"objects/obj_plat_tronco/obj_plat_tronco.yy",},},
-    {"id":{"name":"obj_plat_vert","path":"objects/obj_plat_vert/obj_plat_vert.yy",},},
     {"id":{"name":"obj_plataformas","path":"objects/obj_plataformas/obj_plataformas.yy",},},
     {"id":{"name":"obj_player_puff","path":"objects/obj_player_puff/obj_player_puff.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

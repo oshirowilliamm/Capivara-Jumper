@@ -9,8 +9,8 @@
   "name":"obj_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"plataformas",
-    "path":"folders/Objects/plataformas.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
