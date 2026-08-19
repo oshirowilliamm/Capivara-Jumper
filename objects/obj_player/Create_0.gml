@@ -1,10 +1,10 @@
-max_hspd = 1;
+max_hspd = 2;
 hspd = 0;
 max_vspd = 8;
 vspd = 0;
 grav = .3;
 
-cam_y = 170;
+cam_y = 180;
 
 controle_player = function()
 {
