@@ -1,6 +1,7 @@
 randomise();
 
 global.pontos = 0;
+global.max_pontos = 0;
 global.acai = 0;
 
 

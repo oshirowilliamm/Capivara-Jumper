@@ -40,7 +40,7 @@ caindo = function()
         {
             //pula
             vspd = -max_vspd;
-            toca_som(snd_jump, .5);
+            toca_som(snd_jump, .2);
             
             //criando o puff
             instance_create_layer(x, y, layer, obj_player_puff);
