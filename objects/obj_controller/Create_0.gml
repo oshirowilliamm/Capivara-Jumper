@@ -1,6 +1,9 @@
 y_pontos = 250;
 pontos = 0;
 
+audio_stop_all();
+audio_play_sound(snd_soundtrack, 0, 1);
+
 pontuacao = function()
 {
     //vai ganhando pontos a cada altura nova que o player atinge
@@ -14,6 +17,12 @@ pontuacao = function()
             other.pontos += .5;
             global.pontos = round(other.pontos);
         }
+    }
+    
+    //colocando pontuação maxima
+    if (global.pontos > global.max_pontos)
+    {
+        global.max_pontos = global.pontos;
     }
 }
 

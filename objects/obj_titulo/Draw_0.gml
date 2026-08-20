@@ -3,7 +3,7 @@ draw_set_halign(1);
 draw_set_valign(1);
 
 //desenhando o titulo
-var _titulo1 = "CAPIVARA";
+var _titulo1 = "CAPYBARA";
 var _titulo2 = "JUMPER";
 
 var _x = room_width / 2;

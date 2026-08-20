@@ -12,6 +12,8 @@ controle_player = function()
     movimentacao();
     camera_segue();
     atravessa_parede();
+    
+    sprite_index = global.skin_atual;
 }
 
 movimentacao = function()
@@ -74,6 +76,7 @@ camera_segue = function()
     if (y > camera_get_view_y(_cam) + camera_get_view_height(_cam) + 10)
     {
         game_restart();
+        global.pontos = 0;
     }
 }
 

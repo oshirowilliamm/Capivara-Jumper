@@ -1,0 +1,1 @@
+pontos = lerp(pontos, global.max_pontos, .05); 

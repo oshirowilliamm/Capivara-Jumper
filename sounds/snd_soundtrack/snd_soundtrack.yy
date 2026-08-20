@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_pickup",
+  "%Name":"snd_soundtrack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.36,
+  "duration":40.8,
   "exportDir":"",
-  "name":"snd_pickup",
+  "name":"snd_soundtrack",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_pickup.wav",
+  "soundFile":"snd_soundtrack.ogg",
   "volume":0.1,
 }

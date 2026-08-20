@@ -36,8 +36,8 @@ gera_acai = function()
 {
     var _chance = random(99);
     
-    //chance de 20% de aparecer um açai em qualquer plataforma
-    if (_chance > 80)
+    //chance de 40% de aparecer um açai em qualquer plataforma
+    if (_chance > 60)
     {
         //criando o açai em cima da plataforma
         var _acai = instance_create_layer(random_range(32, 128), y_inicial - 15, layer, obj_acai);

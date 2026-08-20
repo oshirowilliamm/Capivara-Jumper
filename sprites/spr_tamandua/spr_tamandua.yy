@@ -23,7 +23,7 @@
   ],
   "name":"spr_tamandua",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Players",
     "path":"folders/Sprites/Players.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":9,
+    "xorigin":7,
     "yorigin":9,
   },
   "swatchColours":null,

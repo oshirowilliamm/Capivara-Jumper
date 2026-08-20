@@ -4,6 +4,8 @@ global.pontos = 0;
 global.max_pontos = 0;
 global.acai = 0;
 
+global.skin = [true, false, false];
+global.skin_atual = spr_capivara;
 
 function toca_som(_snd, _pitch)
 {
